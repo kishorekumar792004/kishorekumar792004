@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-29 11:53:41 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yOTsxMTo0NDozNCBBTTsyNjQ3"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yOTsxMTo1Mzo0MSBBTTszOzI3NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, w" type="Real" array="False" size=""/>
+            <output expression="&quot;diametre of steel bar&quot;" newline="True"/>
+            <input variable="d"/>
+            <if expression="d&gt;=8 and d&lt;=20">
+                <then>
+                    <assign variable="w" expression="(d*d)/162"/>
+                    <output expression="&quot;weigth of the steel bar &quot;&amp;w" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;print as not available&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

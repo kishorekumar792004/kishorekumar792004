@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-22 11:08:25 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yMjsxMTowMzoyNCBBTTsyNjM0"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yMjsxMTowODoyNSBBTTsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the length&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter the breadth&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a*b"/>
+            <output expression="&quot;the perimetre of the rectangle &quot;&amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

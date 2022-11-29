@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-29 11:44:28 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yOTsxMToyMDo1OSBBTTsyNjQ4"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yOTsxMTo0NDoyOCBBTTs0OzI3NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, n" type="String" array="False" size=""/>
+            <declare name="w" type="Integer" array="False" size=""/>
+            <output expression="&quot;name of the part&quot;" newline="True"/>
+            <input variable="m"/>
+            <assign variable="n" expression="&quot;Kg&quot;"/>
+            <if expression="m=&quot;chopper&quot;">
+                <then>
+                    <assign variable="w" expression="315"/>
+                    <output expression="&quot;weigth of the chopper&quot;&amp;w&amp;n" newline="True"/>
+                </then>
+                <else>
+                    <if expression="m=&quot;cruiser&quot;">
+                        <then>
+                            <assign variable="w" expression="250"/>
+                            <output expression="&quot;weigth of the cruiser is&quot;&amp;w&amp;n" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="m=&quot;scooter&quot;">
+                                <then>
+                                    <assign variable="w" expression="115"/>
+                                    <output expression="&quot;weigth of the scooter is &quot;&amp;w&amp;n" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="m=&quot;mopped&quot;">
+                                        <then>
+                                            <assign variable="w" expression="80"/>
+                                            <output expression="&quot;weigth of the mopped is &quot;&amp;w&amp;n" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;cannot find the weight&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

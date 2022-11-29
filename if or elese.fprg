@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-22 11:40:07 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yMjsxMToxNjo0NyBBTTsyNjQz"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yMjsxMTo0MDowNyBBTTs0OzI3NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of a: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter the value of b: &quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;the greater value is a&quot;&amp;a" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;the lesser number is a &quot;&amp;a" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

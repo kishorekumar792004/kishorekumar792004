@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-29 11:18:14 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yOTsxMDoxNDoyMCBBTTsyNjM4"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLTVKTEZKUUg7MjAyMi0xMS0yOTsxMToxODoxNCBBTTsxMTsyODAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="String" array="False" size=""/>
+            <declare name="n, q, p" type="Integer" array="False" size=""/>
+            <output expression="&quot;name of the item&quot;" newline="True"/>
+            <input variable="i"/>
+            <output expression="&quot;item quantity&quot;" newline="True"/>
+            <input variable="q"/>
+            <output expression="&quot;item price&quot;" newline="True"/>
+            <input variable="p"/>
+            <if expression="q=0">
+                <then>
+                    <output expression="&quot;no bill&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="n" expression="q*p"/>
+                    <output expression="&quot;total price is&quot;&amp;n" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
