@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-22 11:32:12 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMS0yMjsxMToxNTowNyBBTTsyNjM3"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMS0yMjsxMTozMjoxMiBBTTsxOzI3NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R" type="Real" array="False" size=""/>
+            <declare name="A" type="Real" array="False" size=""/>
+            <output expression="&quot;enter the R of the circle is &quot;" newline="True"/>
+            <input variable="R"/>
+            <assign variable="A" expression="pi * R^2"/>
+            <output expression="&quot;the area of he circle is &quot; &amp;A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

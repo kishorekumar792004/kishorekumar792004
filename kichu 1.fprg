@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-22 10:57:53 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMS0yMjsxMDozODo1MSBBTTsyNjQw"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMS0yMjsxMDo1Nzo1MyBBTTsxOzI3NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enater the value of a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enater the value of b&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a+b"/>
+            <output expression="&quot;the value of c is &quot; &amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
