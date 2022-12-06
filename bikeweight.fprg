@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-02 12:25:50 PM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMi0wMjsxMTo1MDo1MCBBTTsyNjMz"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMi0wMjsxMjoyNTo1MCBQTTsxOzI3NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, w" type="String" array="False" size=""/>
+            <input variable="m"/>
+            <if expression="m=&quot;chopper&quot;">
+                <then>
+                    <output expression="&quot;w= 315 kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="m=&quot;cruiser&quot;">
+                        <then>
+                            <output expression="&quot;w= 250 kg&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="m=&quot;scotter&quot;">
+                                <then>
+                                    <output expression="&quot;w= 115 kg &quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="m=&quot;mopped&quot;">
+                                        <then>
+                                            <output expression="&quot;w = 80 kg&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;cannot find weight&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
