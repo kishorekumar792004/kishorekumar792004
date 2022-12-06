@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-02 11:05:56 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMi0wMjsxMDowOTowNSBBTTsyNjM2"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMi0wMjsxMTowNTo1NiBBTTsxOzI3NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="u, bill" type="Integer" array="False" size=""/>
+            <input variable="u"/>
+            <if expression="u&lt;=100">
+                <then>
+                    <output expression="&quot;there is no bill&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="u&gt;=100 and u&lt;=200">
+                        <then>
+                            <assign variable="bill" expression="u*2"/>
+                            <output expression="bill" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="u&gt;200">
+                                <then>
+                                    <assign variable="bill" expression="u*3"/>
+                                    <output expression="bill" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

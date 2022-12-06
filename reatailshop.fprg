@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="EXAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-02 11:50:43 AM"/>
+        <attribute name="created" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMi0wMjsxMTowNjowMyBBTTsyNjMy"/>
+        <attribute name="edited" value="RVhBTTtERVNLVE9QLU1TUlI3NkI7MjAyMi0xMi0wMjsxMTo1MDo0MyBBTTsxOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="option1, bill, q, p" type="Integer" array="False" size=""/>
+            <declare name="it" type="String" array="False" size=""/>
+            <input variable="option1"/>
+            <if expression="option1=0">
+                <then/>
+                <else>
+                    <input variable="it"/>
+                    <input variable="q"/>
+                    <input variable="p"/>
+                    <assign variable="bill" expression="q*p"/>
+                    <output expression="bill" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
